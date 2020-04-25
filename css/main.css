@@ -274,7 +274,7 @@ img {
 }
 
 .about-head {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/showcase.jpg") no-repeat 20% 30% / cover;
   height: 100%;
 }
 
@@ -488,7 +488,7 @@ img {
   }
 
   .index-head {
-    background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+    background: url("../img/showcase.jpg") no-repeat 20% 30% / cover;
     height: 25vh;
   }
 
@@ -583,5 +583,14 @@ img {
     -ms-grid-row: 9;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
+  }
+}
+
+@media (max-height: 400px) {
+  .index-head {
+    height: 100vh;
+  }
+  .header-content {
+    padding: 0.4rem;
   }
 }
